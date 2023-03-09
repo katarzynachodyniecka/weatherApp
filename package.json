@@ -1,27 +1,19 @@
 {
-  "name": "weatherapp",
+  "name": "goit-weather-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "tailwind.config.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/katarzynachodyniecka/weatherApp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/katarzynachodyniecka/weatherApp/issues"
-  },
-  "homepage": "https://github.com/katarzynachodyniecka/weatherApp#readme",
   "devDependencies": {
     "parcel": "^2.8.3",
     "postcss": "^8.4.21",
     "posthtml-include": "^1.7.4",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.2.6"
   }
 }
