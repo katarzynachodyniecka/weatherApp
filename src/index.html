@@ -7,7 +7,19 @@
     <script src="weatherApp.js" type="module" defer></script>
   </head>
   <body>
-    <!-- <include src="./src/components/navbar.html"></include> -->
-    <h1 class="font-black underline">hello world</h1>
+    <include src="./src/components/navbar.html"></include>
+    <div class="container max-w-[50%] mx-auto">
+      <div class="my-10">
+        <include src="./src/components/weatherForm.html"></include>
+      </div>
+      <div>
+        <include
+          class="rounded-lg"
+          src="./src/components/tableData.html"
+        ></include>
+      </div>
+      <p id="error-message" class="text-red-900 font-bold text-2xl"></p>
+      <p id="data" class="text-red-800 font-bold text-2xl my-10"></p>
+    </div>
   </body>
 </html>
